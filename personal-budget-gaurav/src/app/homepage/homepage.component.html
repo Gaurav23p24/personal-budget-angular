@@ -1,0 +1,56 @@
+<main class="center" id="main">
+
+  <div class="page-area">
+
+      <pbg-article color = "blue">
+        <h1>Stay on track</h1>
+          <div>
+              Do you know where you are spending your money? If you really stop to track it down,
+              you would get surprised! Proper budget management depends on real data... and this
+              app will help you with that!
+          </div>
+      </pbg-article>
+
+      <pbg-article>
+          <h1>Alerts</h1>
+          <div>
+              What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+          </div>
+      </pbg-article>
+
+      <pbg-article>
+          <h1>Results</h1>
+          <div>
+              People who stick to a financial plan, budgeting every expense, get out of debt faster!
+              Also, they live happier lives... since they spend without guilt or fear...
+              because they know it is all good and accounted for.
+          </div>
+      </pbg-article>
+
+      <pbg-article>
+          <h1>Free</h1>
+          <div>
+              This app is free!!! And you are the only one holding your data!
+          </div>
+      </pbg-article>
+
+      <!-- This is an A11y Change: Added an accessible label to the chart for screen readers -->
+       <div id="chart-Container">
+          <article aria-labelledby="chartLabel">
+              <h1 id="chartLabel">Chart</h1>
+              <p>
+                  <canvas id="myChart" width="400" height="400" role="img" aria-label="Spending distribution pie chart"></canvas>
+              </p>
+          </article>
+          <article aria-labelledby="chartLabel">
+              <h1 id="chartLabel">D3JS Chart</h1>
+              <p>
+                  <svg id="d3-chart" width="400" height="400" ></svg>
+              </p>
+          </article>
+       </div>
+
+
+  </div>
+
+</main>
