@@ -7,6 +7,8 @@ import { HomepageComponent } from './app/homepage/homepage.component';
 import { AboutComponent } from './app/about/about.component';
 import { LoginComponent } from './app/login/login.component';
 import { P404Component } from './app/p404/p404.component';
+import { Component } from '@angular/core';
+import { ContactComponent } from './app/contact/contact.component';
 
 bootstrapApplication(AppComponent, {
   providers:[
@@ -23,6 +25,10 @@ bootstrapApplication(AppComponent, {
       {
         path: 'login',
         component: LoginComponent
+      },
+      {
+        path:'contact',
+        component: ContactComponent
       },
       {
         path: '**',
